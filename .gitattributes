@@ -1,0 +1,12 @@
+# by default all files are normalized on commit, and converted to crlf on checkout
+* text eol=crlf
+
+# binary files
+*.png binary
+*.jpg binary
+*.exe binary
+*.dll binary
+
+# improves hunk header of diffs
+*.cs   diff=csharp
+*.cshtml   diff=html
